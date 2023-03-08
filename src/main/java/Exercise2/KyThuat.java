@@ -10,8 +10,8 @@ public class KyThuat extends NhanVien{
         super(maNhanVien, hoTen);
     }
 
-    public KyThuat(String maNhanVien, String hoTen, String namSinh, String address, String chuyenNghanh) {
-        super(maNhanVien, hoTen, namSinh, address);
+    public KyThuat(String maNhanVien, String hoTen, String namSinh, String diaChi, String chuyenNghanh) {
+        super(maNhanVien, hoTen, namSinh, diaChi);
         this.chuyenNghanh = chuyenNghanh;
     }
 
